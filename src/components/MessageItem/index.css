@@ -1,0 +1,75 @@
+.chat-msg-list-item{
+    margin: 15px;
+}
+
+.nm-prof{
+    font-size: 25px;
+    background-color:rgb(61, 72, 82);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #ffffff;
+    align-self: flex-end;
+}
+.lm-prof{
+    font-size: 25px;
+    background-color:lightgrey;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color:black;
+    align-self: flex-end;
+}
+.msg-constaiener{
+    display: flex;
+    flex-direction: row;
+}
+.msg-name{
+    font-family: Inter;
+    font-size: 20px;
+}
+.msg-name.nm{
+    color: #ffffff;
+}
+.msg-name.lm{
+    color: green;
+}
+.nm-msg-card{
+    background-color: rgb(61, 72, 82);
+    width: 50%;
+    flex-wrap: wrap;
+    margin-left:25px ;
+    align-self: center;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.lm-msg-card{
+    background-color: #ffffff;
+    width: 50%;
+    flex-wrap: wrap;
+    margin-left:25px ;
+    align-self: center;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.message{
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+}
+.message.nm{
+    color: lightgrey;
+}
+.message.lm{
+    color: black;
+}
